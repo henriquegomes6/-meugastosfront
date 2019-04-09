@@ -8,26 +8,26 @@ import TabHeader from '../common/tab/tabHeader';
 
 class BillingCycles extends Component {
 
-    render() {
-        return (
-            <div>
-                <ContentHeader title='Ciclos de Pagamentos' small='Cadastro' />
-                <Content>
-                    <Tabs>
-                        <TabsHeader>
-                            <TabHeader label='Listar' icon='bars' target='tabList' />
-                            <TabHeader label='Incluir' icon='plus' target='tabCreate' />
-                            <TabHeader label='Alterar' icon='pencil' target='tabUpdate' />
-                            <TabHeader label='Excluir' icon='trash-o' target='tabDelete' />
-                        </TabsHeader>
-                        <TabsContent>
+  render() {
+    return (
+      <div>
+        <ContentHeader title='Ciclos de Pagamentos' small='Cadastro' />
+        <Content>
+          <Tabs>
+            <TabsHeader>
+              <TabHeader label='Listar' icon='bars' target='tabList' />
+              <TabHeader label='Incluir' icon='plus' target='tabCreate' />
+              <TabHeader label='Alterar' icon='pencil' target='tabUpdate' />
+              <TabHeader label='Excluir' icon='trash-o' target='tabDelete' />
+            </TabsHeader>
+            <TabsContent>
 
-                        </TabsContent>
-                    </Tabs>
-                </Content>
-            </div >
-        );
-    }
+            </TabsContent>
+          </Tabs>
+        </Content>
+      </div >
+    );
+  }
 }
 
 export default BillingCycles;
